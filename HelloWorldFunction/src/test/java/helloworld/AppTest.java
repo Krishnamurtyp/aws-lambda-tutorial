@@ -10,6 +10,11 @@ import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * The intelliJ template for an AWS project isn't great.  This does not test what is on the server,
+ * but it illustrates on how one can test events coming from other AWS services.  It's left in here
+ * for illustration purposes.
+ */
 class AppTest {
     static final App app = new App();
     static final ObjectMapper mapper = new ObjectMapper();
